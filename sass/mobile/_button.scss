@@ -1,0 +1,16 @@
+.btn {
+     font-size: 14px;
+        font-weight: 700;
+        color: $header-text-color;
+        padding: 10px 45px;
+        background-color: $header-btn-bgr;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+
+        &-bordered {
+            color: $header-btn-bgr;
+            background-color:   $header-text-color;
+            border: 2px solid  $header-btn-bgr ;
+        }
+}

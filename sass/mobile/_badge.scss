@@ -1,0 +1,40 @@
+.badge {
+    position: relative;
+
+    &__img {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+
+    &__circle {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+       
+        border: $badge-border-color 4px solid ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 85px;
+        position: absolute;
+        left: calc(50% + 25px);
+    }
+    &__svg {
+        fill: $badge-border-color;
+    }
+
+    &__circle-red {
+        background-color: $badge-red;
+    }
+    &__circle-yellow {
+        background-color: $badge-yellow;
+    }
+    &__circle-cyan {
+        background-color: $badge-cyan;
+    }
+    &__circle-blue {
+        background-color: $badge-blue;
+    }
+
+}

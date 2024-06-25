@@ -1,0 +1,36 @@
+.partners {
+    padding: 60px 0;
+
+    &__list-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 15px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        row-gap: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    &__list-title {
+        font-size: 14px;
+    }
+
+    &__list-text {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    &__btn {
+        text-align: center;
+    }
+}

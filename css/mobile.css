@@ -1,0 +1,136 @@
+div.container {
+  padding: 0 18.5px;
+  margin: 0 auto;
+}
+
+.badge {
+  position: relative;
+}
+.badge__img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+.badge__circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: #FFFFFF 4px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 85px;
+  position: absolute;
+  left: calc(50% + 25px);
+}
+.badge__svg {
+  fill: #FFFFFF;
+}
+.badge__circle-red {
+  background-color: #FF4E50;
+}
+.badge__circle-yellow {
+  background-color: #FFA507;
+}
+.badge__circle-cyan {
+  background-color: #1CD7AD;
+}
+.badge__circle-blue {
+  background-color: #4E73DB;
+}
+
+.promo {
+  background-image: url("../../images/header_bgr.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+
+.header-list {
+  padding: 15px 60px 25px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  align-items: center;
+}
+.header-list__item {
+  flex-basis: calc((100% - 64px) / 2);
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.header-list__item-bordered {
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+}
+.header-list__item-uppercased {
+  flex-basis: 100%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  padding-bottom: 135px;
+  text-align: center;
+}
+.hero-list__title {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.hero-list__text {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #FFFFFF;
+}
+.partners {
+  padding: 60px 0;
+}
+.partners__list-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 15px;
+}
+.partners__title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.partners__list {
+  row-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.partners__list-title {
+  font-size: 14px;
+}
+.partners__list-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+.partners__btn {
+  text-align: center;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding: 10px 45px;
+  background-color: #FF4E50;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btn-bordered {
+  color: #FF4E50;
+  background-color: #FFFFFF;
+  border: 2px solid #FF4E50;
+}/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,30 @@
+.header-list {
+    padding: 15px 60px 25px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    align-items: center;
+
+    &__item {
+        flex-basis: calc((100% - 64px) / 2);
+        color:$header-text-color;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 15px;
+        cursor: pointer;
+
+    }
+
+    &__item-bordered {
+        border: 2px solid $header-text-color;
+
+        border-radius: 25px;
+    }
+
+    &__item-uppercased {
+        flex-basis: 100%;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
