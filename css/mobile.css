@@ -40,7 +40,7 @@ div.container {
 }
 
 .promo {
-  background-image: url("../../images/header_bgr.jpg");
+  background-image: url("./../images/header_bgr.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
