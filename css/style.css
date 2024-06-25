@@ -114,14 +114,15 @@ div.container {
   font-family: "Roboto";
   color: #FFFFFF;
 }
+
 .partners {
   padding: 60px 0;
 }
 .partners__list-item {
   display: flex;
   flex-direction: column;
-  text-align: center;
   row-gap: 15px;
+  text-align: center;
 }
 .partners__title {
   text-align: center;
@@ -129,9 +130,9 @@ div.container {
   margin-bottom: 20px;
 }
 .partners__list {
-  row-gap: 30px;
   display: flex;
   flex-direction: column;
+  row-gap: 30px;
   padding-bottom: 30px;
 }
 .partners__list-title {

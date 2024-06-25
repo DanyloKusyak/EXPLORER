@@ -2,10 +2,8 @@
     padding: 60px 0;
 
     &__list-item {
-        display: flex;
-        flex-direction: column;
+        @include flex_direction_rowgap(flex, column, 15px);
         text-align: center;
-        row-gap: 15px;
     }
 
     &__title {
@@ -15,9 +13,7 @@
     }
 
     &__list {
-        row-gap: 30px;
-        display: flex;
-        flex-direction: column;
+        @include flex_direction_rowgap(flex, column, 30px);
         padding-bottom: 30px;
     }
 

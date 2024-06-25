@@ -1,7 +1,5 @@
 .hero-list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
+    @include flex_direction_rowgap(flex, column, 25px);
     padding-bottom: 135px;
     text-align: center;
 
@@ -15,8 +13,5 @@
         font-family: 'Roboto';
         color: $header-text-color;
     }
-    
-    &__btn {
-       
-    }
+        
 }
