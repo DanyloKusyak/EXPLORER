@@ -72,6 +72,11 @@ div.container {
   background-position: top;
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .promo {
+    background-image: url("./../images/header_bgr@2x.jpg");
+  }
+}
 .header-list {
   padding: 15px 60px 25px 60px;
   display: flex;
